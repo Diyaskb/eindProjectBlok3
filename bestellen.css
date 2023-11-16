@@ -1,0 +1,42 @@
+div.hero-link a:link, a:visited {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.hero-link a:hover{
+    background-color: gray;
+}
+
+div.hero-link a:visited{
+    color: white;
+}
+
+
+/* footer */
+.footer {
+    grid-area: auto;
+    margin-top: auto;
+    padding: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F1626;
+    color: white;
+    text-align: center;
+}
+
+.footerLink{
+    padding: 0px 0px;
+
+
+}
+
+.footerLink img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
